@@ -14,6 +14,8 @@ if [ "$1" == "daemon" ]; then
   touch $KEY_PATH; chmod 644 $KEY_PATH
 
   RENEW_SKIP=2
+  acme.sh  --register-account  -m mypersonalsecureemail@proton.me --server zerossl
+
 
   acme.sh --issue -d "$DOMAIN" --standalone --keylength ec-256 --reloadcmd "$RELOADCMD" \
       --key-file "$KEY_PATH" --fullchain-file "$CERT_PATH"
