@@ -36,10 +36,14 @@ PASSWORD=some-strong-password
 ```
 
 Then build the docker image with:
-`docker-compose build`
+```bash
+docker-compose build
+```
 
 And finially:
-`docker-compose up -d`
+```bash
+docker-compose up -d
+```
 
 On your clients you should install shadowsocks with v2ray plugin
 ### Android
