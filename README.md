@@ -19,6 +19,9 @@ https://www.youtube.com/watch?v=XQKkb84EjNQ
 Make sure you have a working `A` or `AAA` record pointing to your server's IP Address.
 You can choose to use CloudFlare "Proxy" or "DNS Only", either should work. "Proxy" DNS will give you a bit more security, your server's IP address won't be exposed.
 
+![Cloudflare DNS](https://github.com/Arman92/shadowsocks-v2ray-tls-ws/blob/master/github/cloudflare-dns.png?raw=true)
+
+
 ## Usage
 
 First update the `.env` file with your Domain name and a strong password:
