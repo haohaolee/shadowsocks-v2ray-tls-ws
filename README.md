@@ -49,7 +49,7 @@ On your clients you should install shadowsocks with v2ray plugin
 
 Here's an example configuration with the default password and domain in `.env` file:
 ```
-ss://YWVzLTI1Ni1nY206c29tZS1zdHJvbmctcGFzc3dvcmQ=@domain.com:443?plugin=v2ray-plugin%3Bpath%3D%2Fv2ray%3Bhost%3Ddomain.com%3Btls
+ss://YWVzLTI1Ni1nY206c29tZS1zdHJvbmctcGFzc3dvcmQ@domain.com:443?plugin=v2ray-plugin%3Bpath%3D%2Fv2ray%3Bhost%3Ddomain.com%3Btls
 ```
 ### Windows
 Documentation needed!
