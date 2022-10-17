@@ -57,7 +57,16 @@ Here's an example configuration with the default password and domain in `.env` f
 ss://YWVzLTI1Ni1nY206c29tZS1zdHJvbmctcGFzc3dvcmQ@domain.com:443?plugin=v2ray-plugin%3Bpath%3D%2Fv2ray%3Bhost%3Ddomain.com%3Btls
 ```
 ### Windows
-Documentation needed!
-
+- Download Shadowsocks from [releases](https://github.com/shadowsocks/shadowsocks-windows/releases) of [shadow-socks-windows](https://github.com/shadowsocks/shadowsocks-windows) repo.
+- Download the latest version of [v2ray-plugin](https://github.com/shadowsocks/v2ray-plugin) from [releases](https://github.com/shadowsocks/v2ray-plugin/releases).
+- Extract `Shadowsocks-X.X.X.X.zip` file.
+- Copy the `v2ray-plugin_windows_386.exe` from `v2ray-plugin-windows-386-vX.X.X` to the extracted directory of shadowsocks where `Shadowsocks.exe` is and rename it to `v2ray-plugin.exe`.
+> **_NOTE:_**  Instead of copying the plugin executable where the Shadowsocks executable resides, You can add the v2ray-plugin directory to the system path environment so that Shadowsocks can find this plugin; however, you still need to rename it to `v2ray-plugin.exe`.
+- Run `Shadowsocks.exe`
+- Copy the `ss://` Link.
+- Right click on the shadowsocks icon in system tray and hit `Servers > Import URL From Clipboard...`
+- Verify and confirm the entered URL by hitting the Yes button.
+- If you see `Successfully imported from ss://.......` it means you are done.
+- To enable the proxy in your system, right-click on the Shadowsocks icon in the system tray and check `System Proxy > PAC`. For more information, you can take a look at [here](https://github.com/shadowsocks/shadowsocks-windows/blob/main/README.md).
 
 
